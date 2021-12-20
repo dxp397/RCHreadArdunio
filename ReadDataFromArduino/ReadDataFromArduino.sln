@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDataFromArduino", "ReadDataFromArduino\ReadDataFromArduino.csproj", "{DB936854-6277-45BD-AD22-7BF20D0409C9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ReadDataSetupProj", "..\..\ReaDataSetupProj\ReadDataSetupProj\ReadDataSetupProj.vdproj", "{1FE04A14-27BA-4FFB-96CB-50B03A9B4C3B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RCH", "RCH\RCH.vdproj", "{61A4AF27-D9F6-499D-B060-D783DE89FFC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB936854-6277-45BD-AD22-7BF20D0409C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB936854-6277-45BD-AD22-7BF20D0409C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB936854-6277-45BD-AD22-7BF20D0409C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB936854-6277-45BD-AD22-7BF20D0409C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE04A14-27BA-4FFB-96CB-50B03A9B4C3B}.Debug|Any CPU.ActiveCfg = Debug
+		{1FE04A14-27BA-4FFB-96CB-50B03A9B4C3B}.Release|Any CPU.ActiveCfg = Release
+		{61A4AF27-D9F6-499D-B060-D783DE89FFC6}.Debug|Any CPU.ActiveCfg = Debug
+		{61A4AF27-D9F6-499D-B060-D783DE89FFC6}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {012126C5-F1A8-4EA8-B60A-E37B138FAF8E}
+	EndGlobalSection
+EndGlobal
